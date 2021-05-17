@@ -1,7 +1,6 @@
 #score {
   color: white;
   text-align: center;
-  font-family: verdana;
 }
 
 #game {
@@ -10,7 +9,7 @@
   border: 3px solid white;
   margin: auto;
   background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Game_Background_149.png");
-  background-size: cover; 
+  background-size: cover;
 }
 
 #player {
@@ -34,17 +33,17 @@
 }
 
 @keyframes obstacle {
-  0%{left: 510px;}
-  100%{left: -100px;}
+  0% {left: 510px;}
+  100% {left: -100px;}
 }
 
 .jump-animation {
-  animation: jump 0.45s; 
+  animation: jump 0.45s;
 }
 
 @keyframes jump {
-  0%{top: 248px;}
-  50%{top: 80px;}
-  75%{top: 80px;}
-  100%{top: 248px;}
+  0% {top: 248px;}
+  50% {top: 80px;}
+  75% {top: 80px;}
+  100% {top: 248px;}
 }
