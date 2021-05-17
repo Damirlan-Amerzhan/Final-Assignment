@@ -28,8 +28,8 @@ setInterval(() => {
   }
 
   if (obstacleLeft < 70 && obstacleLeft > 0 && playerTop > 145) {
-    alert('Game Over! You got a score of: ' + score.innerText +  
-     '\n\nDo you want to play again?')
+    alert('Game Over! You got a score of: ' + score.innerText +
+    '\n\nDo you want to play again?')
     location.reload()
-  }   
+  }
 }, 50)
