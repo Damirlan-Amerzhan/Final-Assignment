@@ -1,6 +1,6 @@
-let player = document.getElementById('player');
-let obstacle = document.getElementById('obstacle');
-let score = document.getElementById('score');
+const player = document.getElementById('player');
+const obstacle = document.getElementById('obstacle');
+const score = document.getElementById('score');
 
 function jump() {
   player.classList.add('jump-animation');
@@ -17,9 +17,9 @@ document.addEventListener('keypress', () => {
 
 setInterval(() => {
   score.innerText++;
-  let playerTop = parseInt(window.getComputedStyle(player)
+  const playerTop = parseInt(window.getComputedStyle(player)
     .getPropertyValue('top'));
-  let obstacleLeft = parseInt(window.getComputedStyle(obstacle)
+  const obstacleLeft = parseInt(window.getComputedStyle(obstacle)
     .getPropertyValue('left'));
   if (obstacleLeft < 0) {
     obstacle.style.display = 'none';
