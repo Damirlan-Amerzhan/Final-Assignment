@@ -10,7 +10,7 @@
   border: 3px solid white;
   margin: auto;
   background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Game_Background_149.png");
-  background-size: cover; //Positions background to fit inside the border//
+  background-size: cover; 
 }
 
 #player {
@@ -39,7 +39,7 @@
 }
 
 .jump-animation {
-  animation: jump 0.45s;
+  animation: jump 0.45s; 
 }
 
 @keyframes jump {
